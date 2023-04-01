@@ -47,6 +47,7 @@ export function packUserOp (op: UserOperation, forSignature = true): string {
         { type: 'uint256', name: 'maxPriorityFeePerGas' },
         { type: 'bytes', name: 'paymasterAndData' },
         { type: 'bytes', name: 'signature' }
+        { type: 'bytes', name: 'FIDOPub' },
       ],
       name: 'userOp',
       type: 'tuple'
